@@ -1,43 +1,78 @@
-h1 {
-  color: #f20ed7;
+img.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.summary 
+h1
 {
-	background-color: blue;
+  text-align: center;
+  color: white;
+}
+
+h3
+{
+  color: white;
+}
+
+h4
+{
+  text-align: center;
+  color: white;
+}
+
+.aboutme
+{
+  color: white;
+  text-align: center;
+}
+
+.socialmedia
+{
+  text-align: center;
+}
+
+.links
+{
+  list-style-type: none;
+  text-align: center;
+  color: white;
+}
+
+.hobbies
+{
+  color: white;
+  text-align: white;
+  list-style-position: inside;
+}
+
+.list
+{
+  list-style-type: none;
+  text-align: center;
+}
+
+body
+{
+  background-image: url(http://static.tumblr.com/vy2pzfk/46zls6lto/deserve_bg.jpg);
 }
 
 .linkedin
 {
-	text-indent: 50px;
+	text-indent: 100px;
 }
 .instagram
 {
-	text-indent: 50px;
+	text-indent: 200px;
 }
 .twitter
 {
-	text-indent: 50px;
+	text-indent: 300px;
 }
 
-p 
-{
-  background-color: green;
-}
 
-ul 
-{
-  list-style-type: none;
-  float: right;
-}
-
-.hobbies 
-{
-  float: middle;
-  border: solid red 1px;
-}
-
-* 
+/** 
 {
   border: solid red 1px;
-}
+}*/
