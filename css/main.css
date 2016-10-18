@@ -2,24 +2,42 @@ h1 {
   color: #f20ed7;
 }
 
-p {
+.summary 
+{
+	background-color: blue;
+}
+
+.linkedin
+{
+	text-indent: 50px;
+}
+.instagram
+{
+	text-indent: 50px;
+}
+.twitter
+{
+	text-indent: 50px;
+}
+
+p 
+{
   background-color: green;
 }
 
-.monkey {
-  background-color: purple;
-}
-
-ul {
+ul 
+{
   list-style-type: none;
   float: right;
 }
 
-.hobbies {
+.hobbies 
+{
   float: middle;
-  //border: solid red 1px;
+  border: solid red 1px;
 }
 
-* {
+* 
+{
   border: solid red 1px;
 }
