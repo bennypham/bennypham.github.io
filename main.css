@@ -8,6 +8,7 @@ body
 .container
 {
   max-width: 800px;
+  margin: 0 auto;
 }
 
 img.center
@@ -21,10 +22,12 @@ h1
 {
   text-align: center;
   color: white;
+  font-weight: 800;
 }
 
-h3
+h2
 {
+  text-align: center;
   color: white;
 }
 
@@ -34,23 +37,23 @@ h3
   text-align: center;
 }
 
-.socialmedia
-{
-  text-align: center;
-}
-
 .links
 {
   list-style-type: none;
+  text-align: center;
 }
 
 .links a
 {
-  text-align: center;
   color: red;
 }
 
 a:active, a:hover
 {
   color: orange;
+}
+
+a:link
+{
+  text-decoration: none;
 }
