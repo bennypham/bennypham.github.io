@@ -7,7 +7,7 @@ body
 
 .container
 {
-  max-width: 400px;
+  max-width: 800px;
 }
 
 img.center
@@ -28,12 +28,6 @@ h3
   color: white;
 }
 
-h4
-{
-  text-align: center;
-  color: white;
-}
-
 .aboutme
 {
   color: white;
@@ -48,39 +42,10 @@ h4
 .links
 {
   list-style-type: none;
+}
+
+.links a
+{
   text-align: center;
-  color: white;
+  text-decoration: none;
 }
-
-.hobbies
-{
-  color: white;
-  text-align: white;
-  list-style-position: inside;
-}
-
-.list
-{
-  list-style-type: none;
-  text-align: center;
-}
-
-
-.linkedin
-{
-	text-indent: 100px;
-}
-.instagram
-{
-	text-indent: 200px;
-}
-.twitter
-{
-	text-indent: 300px;
-}
-
-
-/** 
-{
-  border: solid red 1px;
-}*/
