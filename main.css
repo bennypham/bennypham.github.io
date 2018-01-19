@@ -47,5 +47,10 @@ h3
 .links a
 {
   text-align: center;
-  text-decoration: none;
+  color: blue;
+}
+
+a:active, a:hover
+{
+  color: orange;
 }
