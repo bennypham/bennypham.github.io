@@ -1,59 +1,42 @@
-body
-{
+body {
   background: #4c4c4c;
   font-family: 'Heebo', sans-serif;
   justify-content: center;
 }
 
-.container
-{
-  max-width: 800px;
-  margin: 0 auto;
+.container {
+  margin-top: 20px;
 }
 
-img.center
-{
+img.center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
+  
 }
 
-h1
-{
-  text-align: center;
+h1 {
   color: white;
   font-weight: 800;
 }
 
-h2
-{
-  text-align: center;
+h2 {
   color: white;
 }
 
-.aboutme
-{
+.about {
   color: white;
-  text-align: center;
 }
 
-.links
-{
+.links { 
   list-style-type: none;
-  text-align: center;
+  list-style-position: outside;
 }
 
-.links a
-{
+.links a {
   color: red;
+  
 }
 
-a:active, a:hover
-{
+a:active, a:hover {
   color: orange;
-}
-
-a:link
-{
-  text-decoration: none;
 }
